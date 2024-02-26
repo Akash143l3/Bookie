@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body #root {
+  @apply h-screen w-screen overflow-x-hidden bg-neutral-50;
+}
+.custom-bg {
+  background-image: url('/bg3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.child-bg{
+  background-image: url('/ch2.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.child2-bg{
+  background-image: url('/bg2.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
